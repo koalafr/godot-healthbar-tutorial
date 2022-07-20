@@ -1,0 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="healthbar-tutorial"
+config/description="This is a tutorial project made by Alex K - Koala Bear Studios 2022
+You can find the tutorial on youtube on my channel
+https://www.youtube.com/channel/UCgaj2DbwVCDD4j-Ub7dqv6g
+-MIT-"
+run/main_scene="res://Node2D.tscn"
+config/icon="res://icon.png"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
